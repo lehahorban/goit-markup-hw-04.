@@ -509,3 +509,26 @@ padding-bottom: 94px;
   margin-right: 8px;
   
     }
+
+.masters-social-list {
+display: flex;
+justify-content: center;
+margin-top: 16px;
+
+    }
+.masters-social-item:not(:first-child)
+{
+  margin-left: 10px;
+ 
+}
+.masters-social-link {
+  width: 44px;
+  height: 44px;
+  background: #2196f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  }
+  
+  
