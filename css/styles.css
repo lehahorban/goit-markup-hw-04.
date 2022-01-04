@@ -343,7 +343,9 @@ padding-bottom: 94px;
     margin: 15px;
     
   }
-  
+  .list-masters:hover {
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  }
 
   .team-title {
     font-weight: bold;
@@ -455,6 +457,9 @@ padding-bottom: 94px;
     margin: 15px;
     text-align: left;
   }
+  .main-card:hover {
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+  }
   
   
     
@@ -503,7 +508,9 @@ padding-bottom: 94px;
   .main-btn:hover,
   .main-btn:focus {
     background-color: var(--accent-color);
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   }
+  
 
 .main-item {
   font-weight: bold;
