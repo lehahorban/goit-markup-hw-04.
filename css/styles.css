@@ -516,6 +516,11 @@ padding-bottom: 94px;
   letter-spacing: 0.06em;
   color: var(--first-text-color);
       }
+.master-card {
+  background: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  }
 
 
 .main-title {
@@ -564,11 +569,20 @@ margin-top: 16px;
 .masters-social-link {
   width: 44px;
   height: 44px;
-  background: #2196f3;
+  background: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  color: #AFB1B8;
+  }
+  .svg-link {
+    fill: currentColor;
+  }
+  .masters-social-link:hover,
+  .masters-social-link:focus {
+    background-color: var(--accent-color);
+    color:#ffffff;
   }
   .section-client {
     padding-bottom: 94px;
@@ -605,8 +619,12 @@ letter-spacing: 0.03em;
   .client-border:not(:first-child)  {
     margin-left: 30px;
   }
-  .footer-item {
-  }
+.client-svg :hover {
+  fill: var(--accent-color);
+}
+.partners-logo  {
+  
+}
   .footer-link {
     font-family: Roboto;
     font-style: normal;
