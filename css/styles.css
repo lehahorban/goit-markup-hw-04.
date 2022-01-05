@@ -241,7 +241,7 @@ padding-bottom: 94px;
     margin-left: auto;
     margin-right: auto;
     background-image: 
-    linear-gradient(rgba(47, 48, 58, 0.8), rgba(47, 48, 58, 0.8)),
+    linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),
     url('../images/overlay.jpg');
     background-position: center;
     background-repeat: no-repeat;
@@ -367,6 +367,9 @@ padding-bottom: 94px;
     color: var(--first-text-color);
     
      }
+  .team {
+    background-color: #F5F4FA;;
+  }
 
   .masters-item {
     font-weight: normal;
@@ -487,6 +490,8 @@ padding-bottom: 94px;
   .mains-btn:hover,   
   .mains-btn:focus {
     background-color: var(--btn-hover-color);
+    color: #ffffff;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
   }
   .main-btn {    
     background-color: var(--btn-second-color);
@@ -509,6 +514,7 @@ padding-bottom: 94px;
   .main-btn:focus {
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    color: #ffffff;
   }
   
 
@@ -602,7 +608,7 @@ letter-spacing: 0.03em;
   .client-items {
     display: flex;
     justify-content: center;
-    margin-top: 50px;
+    
   }
   .client-icons {
     display: flex;
@@ -610,7 +616,7 @@ letter-spacing: 0.03em;
     align-items: center;
   }
   
-  .client-border:not(:first-child)  {
+  .client-icons:not(:first-child)  {
     margin-left: 30px;
   }
   
